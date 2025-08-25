@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/likeButtonAnimation/' : '/',
     head: {
       title: "하트버튼 애니메이션",
       htmlAttrs: {
