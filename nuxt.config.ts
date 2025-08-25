@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   ssr: false,
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
