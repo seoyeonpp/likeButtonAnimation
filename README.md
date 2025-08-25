@@ -9,3 +9,6 @@
 - Tailwindcss
 - lottie
 - phosphoricons
+
+### 3. 프로젝트 url
+https://seoyeonpp.github.io/likeButtonAnimation/
